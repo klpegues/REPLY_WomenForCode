@@ -26,6 +26,9 @@ body{
   background-color: $light-gray;
 }
 
+a{
+  text-decoration: none;
+}
 header{
   background-image: url("../img/logo.svg");
   background-position: 7px 12px;
@@ -147,7 +150,34 @@ footer{
 }
 .twitter-icon{
   background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
   margin: 5px;
   width: 30px;
   height: 30px;
+  float: left;
+}
+
+.fb-icon{
+  background-image: url("../img/facebook.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 5px;
+}
+
+.email-icon{
+  background-image: url("../img/email.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 5px;
+
+
+}
+.footer-icons
+{
+  width: 120px;
+  margin: 0 auto;
 }
